@@ -1,0 +1,167 @@
+{
+  "assignments": [
+    {
+      "id": "assignment1",
+      "title": "התנסות ראשונית עם כלי Gen AI",
+      "description": "בחרו כלי Gen AI אחד והשתמשו בו לפתרון בעיה פשוטה במדעי המחשב. תעדו את התהליך, התוצאות, והמסקנות שלכם.",
+      "type": "individual",
+      "dueDate": "2025-04-15T23:59:59",
+      "status": "active",
+      "points": 10,
+      "requirements": [
+        "בחירת כלי Gen AI (ChatGPT, Gemini, Claude, וכו')",
+        "הגדרת בעיה פשוטה במדעי המחשב",
+        "תיעוד הפרומפטים שהשתמשתם בהם",
+        "ניתוח התוצאות",
+        "רפלקציה על התהליך והמסקנות"
+      ],
+      "resources": [
+        {
+          "title": "מדריך להתנסות ראשונית עם כלי Gen AI",
+          "url": "https://example.com/first-steps-with-gen-ai",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": "assignment2",
+      "title": "פיתוח קוד בעזרת GitHub Copilot",
+      "description": "השתמשו ב-GitHub Copilot לפיתוח פונקציות ומחלקות בשפת התכנות שלכם. השוו את התהליך לפיתוח ללא עזרת AI.",
+      "type": "individual",
+      "dueDate": "2025-04-22T23:59:59",
+      "status": "active",
+      "points": 15,
+      "requirements": [
+        "התקנה והגדרה של GitHub Copilot",
+        "פיתוח לפחות 3 פונקציות ומחלקה אחת בעזרת הכלי",
+        "השוואה לפיתוח ללא עזרת AI",
+        "תיעוד היתרונות והחסרונות",
+        "רפלקציה על השפעת הכלי על תהליך הפיתוח"
+      ],
+      "resources": [
+        {
+          "title": "מדריך התקנה של GitHub Copilot",
+          "url": "https://github.com/features/copilot",
+          "type": "link"
+        },
+        {
+          "title": "טיפים לשימוש יעיל ב-GitHub Copilot",
+          "url": "https://example.com/copilot-tips",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": "assignment3",
+      "title": "הנדסת פרומפטים",
+      "description": "פתחו סדרה של פרומפטים לפתרון בעיה מורכבת במדעי המחשב. שפרו את הפרומפטים בהדרגה ותעדו את השיפור בתוצאות.",
+      "type": "individual",
+      "dueDate": "2025-04-29T23:59:59",
+      "status": "active",
+      "points": 20,
+      "requirements": [
+        "הגדרת בעיה מורכבת במדעי המחשב",
+        "פיתוח לפחות 5 גרסאות של פרומפטים",
+        "תיעוד התוצאות של כל גרסה",
+        "ניתוח השיפור בתוצאות",
+        "הסקת מסקנות לגבי עקרונות הנדסת פרומפטים"
+      ],
+      "resources": [
+        {
+          "title": "עקרונות הנדסת פרומפטים",
+          "url": "https://example.com/prompt-engineering-principles",
+          "type": "article"
+        },
+        {
+          "title": "דוגמאות לפרומפטים מוצלחים",
+          "url": "https://github.com/example/effective-prompts",
+          "type": "code"
+        }
+      ]
+    },
+    {
+      "id": "assignment4",
+      "title": "פרויקט אמצע: פיתוח כלי למידה בעזרת Gen AI",
+      "description": "פתחו כלי למידה המשתמש ב-Gen AI לסייע בהבנת מושג מורכב במדעי המחשב. הכלי צריך לאפשר אינטראקציה והתאמה אישית.",
+      "type": "group",
+      "dueDate": "2025-05-13T23:59:59",
+      "status": "upcoming",
+      "points": 30,
+      "requirements": [
+        "בחירת מושג מורכב במדעי המחשב",
+        "פיתוח כלי אינטראקטיבי המשתמש ב-Gen AI",
+        "יכולת התאמה אישית לצרכי המשתמש",
+        "ממשק משתמש ידידותי",
+        "תיעוד מלא של הכלי והשימוש בו"
+      ],
+      "resources": [
+        {
+          "title": "דוגמאות לכלי למידה מבוססי AI",
+          "url": "https://example.com/ai-learning-tools",
+          "type": "article"
+        },
+        {
+          "title": "מדריך לפיתוח כלים אינטראקטיביים",
+          "url": "https://example.com/interactive-tools-guide",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": "assignment5",
+      "title": "דיבוג קוד מורכב בעזרת Gen AI",
+      "description": "קבלו קוד מורכב עם באגים ותקנו אותו בעזרת כלי Gen AI. תעדו את תהליך הדיבוג והשיפורים שביצעתם.",
+      "type": "individual",
+      "dueDate": "2025-05-20T23:59:59",
+      "status": "upcoming",
+      "points": 20,
+      "requirements": [
+        "ניתוח הקוד המורכב וזיהוי הבאגים",
+        "שימוש בכלי Gen AI לדיבוג",
+        "תיקון הבאגים והסבר הפתרונות",
+        "השוואה לתהליך דיבוג מסורתי",
+        "רפלקציה על יעילות השימוש ב-Gen AI לדיבוג"
+      ],
+      "resources": [
+        {
+          "title": "טכניקות לדיבוג קוד עם AI",
+          "url": "https://example.com/ai-debugging-techniques",
+          "type": "article"
+        },
+        {
+          "title": "דוגמאות לדיבוג מורכב",
+          "url": "https://github.com/example/complex-debugging",
+          "type": "code"
+        }
+      ]
+    },
+    {
+      "id": "assignment6",
+      "title": "פרויקט מסכם: פיתוח פרויקט מקיף בעזרת Gen AI",
+      "description": "פתחו פרויקט מקיף במדעי המחשב תוך שימוש בכלי Gen AI בכל שלבי הפיתוח. הפרויקט צריך לשלב את כל הנלמד בקורס.",
+      "type": "group",
+      "dueDate": "2025-06-10T23:59:59",
+      "status": "upcoming",
+      "points": 50,
+      "requirements": [
+        "תכנון מפורט של הפרויקט",
+        "שימוש בכלי Gen AI בכל שלבי הפיתוח",
+        "יישום עקרונות אתיים בשימוש ב-AI",
+        "תיעוד מלא של התהליך והקוד",
+        "הצגת הפרויקט בפני הכיתה"
+      ],
+      "resources": [
+        {
+          "title": "מדריך לניהול פרויקטים עם Gen AI",
+          "url": "https://example.com/ai-project-management",
+          "type": "article"
+        },
+        {
+          "title": "דוגמאות לפרויקטים מוצלחים",
+          "url": "https://github.com/example/successful-ai-projects",
+          "type": "code"
+        }
+      ]
+    }
+  ]
+}
