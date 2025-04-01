@@ -1,0 +1,155 @@
+{
+  "dashboard": {
+    "recentActivity": [
+      {
+        "id": "activity1",
+        "type": "module-completion",
+        "title": "השלמת מודול: מבוא לכלי Gen AI",
+        "date": "2025-03-31T15:30:00",
+        "description": "סיימת את כל היחידות במודול 'מבוא לכלי Gen AI'."
+      },
+      {
+        "id": "activity2",
+        "type": "assignment-submission",
+        "title": "הגשת משימה: התנסות ראשונית עם כלי Gen AI",
+        "date": "2025-03-30T14:45:00",
+        "description": "הגשת את המשימה 'התנסות ראשונית עם כלי Gen AI' וקיבלת ציון 95."
+      },
+      {
+        "id": "activity3",
+        "type": "module-progress",
+        "title": "התקדמות במודול: פתרון בעיות ודיבוג בעזרת Gen AI",
+        "date": "2025-03-29T10:15:00",
+        "description": "השלמת 80% ממודול 'פתרון בעיות ודיבוג בעזרת Gen AI'."
+      },
+      {
+        "id": "activity4",
+        "type": "assignment-start",
+        "title": "התחלת משימה: הנדסת פרומפטים",
+        "date": "2025-03-28T16:20:00",
+        "description": "התחלת לעבוד על המשימה 'הנדסת פרומפטים'."
+      },
+      {
+        "id": "activity5",
+        "type": "resource-access",
+        "title": "גישה למשאב: עקרונות הנדסת פרומפטים",
+        "date": "2025-03-27T11:05:00",
+        "description": "ניגשת למשאב 'עקרונות הנדסת פרומפטים'."
+      }
+    ],
+    "upcomingAssignments": [
+      {
+        "id": "assignment3",
+        "title": "הנדסת פרומפטים",
+        "dueDate": "2025-04-29T23:59:59",
+        "status": "in-progress",
+        "daysLeft": 29
+      },
+      {
+        "id": "assignment4",
+        "title": "פרויקט אמצע: פיתוח כלי למידה בעזרת Gen AI",
+        "dueDate": "2025-05-13T23:59:59",
+        "status": "not-started",
+        "daysLeft": 43
+      },
+      {
+        "id": "assignment5",
+        "title": "דיבוג קוד מורכב בעזרת Gen AI",
+        "dueDate": "2025-05-20T23:59:59",
+        "status": "not-started",
+        "daysLeft": 50
+      }
+    ],
+    "recentNotifications": [
+      {
+        "id": "notification1",
+        "title": "משימה חדשה זמינה: הנדסת פרומפטים",
+        "timestamp": "2025-03-28T09:00:00",
+        "read": true,
+        "action": {
+          "type": "navigate",
+          "page": "assignments",
+          "params": {
+            "assignmentId": "assignment3"
+          }
+        }
+      },
+      {
+        "id": "notification2",
+        "title": "ציון חדש: התנסות ראשונית עם כלי Gen AI - 95",
+        "timestamp": "2025-03-30T15:30:00",
+        "read": true,
+        "action": {
+          "type": "navigate",
+          "page": "assignments",
+          "params": {
+            "assignmentId": "assignment1"
+          }
+        }
+      },
+      {
+        "id": "notification3",
+        "title": "מודול חדש זמין: חשיבה ביקורתית וכלי Gen AI",
+        "timestamp": "2025-03-31T08:00:00",
+        "read": false,
+        "action": {
+          "type": "navigate",
+          "page": "course-content",
+          "params": {
+            "moduleId": "module6"
+          }
+        }
+      },
+      {
+        "id": "notification4",
+        "title": "תזכורת: הגשת משימה 'הנדסת פרומפטים' עד 29 באפריל",
+        "timestamp": "2025-03-31T10:00:00",
+        "read": false,
+        "action": {
+          "type": "navigate",
+          "page": "assignments",
+          "params": {
+            "assignmentId": "assignment3"
+          }
+        }
+      },
+      {
+        "id": "notification5",
+        "title": "כלי AI חדש נוסף: Amazon CodeWhisperer",
+        "timestamp": "2025-03-31T11:15:00",
+        "read": false,
+        "action": {
+          "type": "navigate",
+          "page": "ai-tools",
+          "params": {
+            "toolId": "codewhisperer"
+          }
+        }
+      }
+    ],
+    "popularAiTools": [
+      {
+        "id": "chatgpt",
+        "name": "ChatGPT",
+        "icon": "fa-comment-dots",
+        "description": "מודל שפה גדול המאפשר שיחה טבעית ומענה על שאלות במגוון תחומים",
+        "usageCount": 156
+      },
+      {
+        "id": "github-copilot",
+        "name": "GitHub Copilot",
+        "icon": "fa-code",
+        "description": "עוזר קוד מבוסס AI המשתלב בסביבת הפיתוח ומציע השלמות קוד חכמות",
+        "usageCount": 124
+      },
+      {
+        "id": "claude",
+        "name": "Claude",
+        "icon": "fa-brain",
+        "description": "מודל שפה גדול המתמחה בשיחות ארוכות וניתוח טקסט מעמיק",
+        "usageCount": 87
+      }
+    ],
+    "overallProgress": 68
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "modules": [
+    {
+      "id": "module1",
+      "number": 1,
+      "title": "מבוא לכלי Gen AI",
+      "topics": "היסטוריה של AI, מודלי שפה גדולים (LLMs), יכולות ומגבלות",
+      "activities": "הכרת כלים שונים, השוואה בין כלים, התנסות ראשונית",
+      "exercises": "שימוש בסיסי בכלי Gen AI לפתרון בעיות פשוטות",
+      "progress": 100,
+      "units": [
+        {
+          "id": "module1_unit1",
+          "number": 1,
+          "title": "מבוא ל-Gen AI",
+          "content": "<h2>מבוא ל-Gen AI</h2><p>בינה מלאכותית גנרטיבית (Gen AI) היא תחום מתפתח במהירות שמשנה את האופן שבו אנו מתכנתים, לומדים ופותרים בעיות. יחידה זו מספקת סקירה של התחום ומציגה את היכולות והמגבלות של כלי Gen AI.</p><h3>מטרות היחידה</h3><ul><li>להבין את המושגים הבסיסיים של בינה מלאכותית גנרטיבית</li><li>להכיר את ההיסטוריה והתפתחות של מודלי שפה גדולים</li><li>לזהות יכולות ומגבלות של כלי Gen AI</li></ul>",
+          "completed": true,
+          "resources": [
+            {
+              "title": "מבוא לבינה מלאכותית גנרטיבית",
+              "url": "https://example.com/intro-to-gen-ai",
+              "type": "article"
+            },
+            {
+              "title": "התפתחות מודלי שפה גדולים",
+              "url": "https://www.youtube.com/watch?v=example",
+              "type": "video"
+            }
+          ],
+          "relatedAiTools": [
+            {
+              "id": "chatgpt",
+              "name": "ChatGPT",
+              "icon": "fa-comment-dots",
+              "description": "מודל שפה גדול מבית OpenAI"
+            }
+          ]
+        },
+        {
+          "id": "module1_unit2",
+          "number": 2,
+          "title": "מודלי שפה גדולים",
+          "content": "<h2>מודלי שפה גדולים</h2><p>מודלי שפה גדולים (LLMs) הם הבסיס לכלי Gen AI המודרניים. יחידה זו מסבירה כיצד מודלים אלה פועלים, כיצד הם מאומנים, ומה הם יכולים לעשות.</p><h3>מטרות היחידה</h3><ul><li>להבין את הארכיטקטורה הבסיסית של מודלי שפה גדולים</li><li>להכיר את תהליך האימון של מודלים אלה</li><li>לזהות את היכולות והמגבלות של מודלים שונים</li></ul>",
+          "completed": true,
+          "resources": [
+            {
+              "title": "כיצד פועלים מודלי שפה גדולים",
+              "url": "https://example.com/how-llms-work",
+              "type": "article"
+            },
+            {
+              "title": "השוואה בין מודלי שפה גדולים",
+              "url": "https://example.com/llm-comparison.pdf",
+              "type": "pdf"
+            }
+          ],
+          "relatedAiTools": [
+            {
+              "id": "gemini",
+              "name": "Google Gemini",
+              "icon": "fa-gem",
+              "description": "מודל שפה גדול מבית Google"
+            },
+            {
+              "id": "claude",
+              "name": "Claude",
+              "icon": "fa-brain",
+              "description": "מודל שפה גדול מבית Anthropic"
+            }
+          ]
+        },
+        {
+          "id": "module1_unit3",
+          "number": 3,
+          "title": "יישומים בתחום מדעי המחשב",
+          "content": "<h2>יישומים בתחום מדעי המחשב</h2><p>כלי Gen AI מציעים יישומים רבים בתחום מדעי המחשב, מפיתוח קוד ועד לניתוח אלגוריתמים. יחידה זו סוקרת את היישומים העיקריים ומדגימה כיצד ניתן לשלב כלים אלה בלימודי מדעי המחשב.</p><h3>מטרות היחידה</h3><ul><li>להכיר יישומים מרכזיים של Gen AI בתחום מדעי המחשב</li><li>להבין כיצד לשלב כלים אלה בתהליך הלמידה</li><li>לזהות הזדמנויות לשימוש בכלי Gen AI בפרויקטים</li></ul>",
+          "completed": true,
+          "resources": [
+            {
+              "title": "יישומי Gen AI במדעי המחשב",
+              "url": "https://example.com/gen-ai-cs-applications",
+              "type": "article"
+            },
+            {
+              "title": "דוגמאות קוד לשימוש ב-Gen AI",
+              "url": "https://github.com/example/gen-ai-examples",
+              "type": "code"
+            }
+          ],
+          "relatedAiTools": [
+            {
+              "id": "github-copilot",
+              "name": "GitHub Copilot",
+              "icon": "fa-code",
+              "description": "עוזר קוד מבוסס AI"
+            },
+            {
+              "id": "codewhisperer",
+              "name": "Amazon CodeWhisperer",
+              "icon": "fa-code",
+              "description": "עוזר קוד מבוסס AI מבית Amazon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module2",
+      "number": 2,
+      "title": "כלי Gen AI לפיתוח קוד",
+      "topics": "GitHub Copilot, Amazon CodeWhisperer, Replit Ghostwriter",
+      "activities": "התקנה והגדרה של כלים, כתיבת קוד בעזרת AI",
+      "exercises": "פיתוח פונקציות ומחלקות בעזרת כלי AI",
+      "progress": 100,
+      "units": [
+        {
+          "id": "module2_unit1",
+          "number": 1,
+          "title": "GitHub Copilot",
+          "content": "<h2>GitHub Copilot</h2><p>GitHub Copilot הוא כלי עוצמתי לפיתוח קוד המבוסס על AI. יחידה זו מציגה את הכלי, מסבירה כיצד להתקין ולהשתמש בו, ומדגימה את היכולות שלו.</p><h3>מטרות היחידה</h3><ul><li>להבין כיצד GitHub Copilot פועל</li><li>ללמוד כיצד להתקין ולהגדיר את הכלי</li><li>לרכוש מיומנויות בשימוש יעיל בכלי</li></ul>",
+          "completed": true,
+          "resources": [
+            {
+              "title": "מדריך התקנה של GitHub Copilot",
+              "url": "https://github.com/features/copilot",
+              "type": "link"
+            },
+            {
+              "title": "טיפים לשימוש יעיל ב-GitHub Copilot",
+              "url": "https://example.com/copilot-tips",
+              "type": "article"
+            }
+          ],
+          "relatedAiTools": [
+            {
+              "id": "github-copilot",
+              "name": "GitHub Copilot",
+              "icon": "fa-code",
+              "description": "עוזר קוד מבוסס AI"
+            }
+          ]
+        },
+        {
+          "id": "module2_unit2",
+          "number": 2,
+          "title": "Amazon CodeWhisperer",
+          "content": "<h2>Amazon CodeWhisperer</h2><p>Amazon CodeWhisperer הוא כלי AI לפיתוח קוד מבית Amazon. יחידה זו מציגה את הכלי, מסבירה כיצד להתקין ולהשתמש בו, ומדגימה את היכולות שלו.</p><h3>מטרות היחידה</h3><ul><li>להבין כיצד Amazon CodeWhisperer פועל</li><li>ללמוד כיצד להתקין ולהגדיר את הכלי</li><li>לרכוש מיומנויות בשימוש יעיל בכלי</li></ul>",
+          "completed": true,
+          "resources": [
+            {
+              "title": "מדריך התקנה של Amazon CodeWhisperer",
+              "url": "https://aws.amazon.com/codewhisperer/",
+              "type": "link"
+            },
+            {
+              "title": "השוואה בין CodeWhisperer ו-Copilot",
+              "url": "https://example.com/codewhisperer-vs-copilot",
+              "type": "article"
+            }
+          ],
+          "relatedAiTools": [
+            {
+              "id": "codewhisperer",
+              "name": "Amazon CodeWhisperer",
+              "icon": "fa-code",
+              "description": "עוזר קוד מבוסס AI מבית Amazon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module5",
+      "number": 5,
+      "title": "פתרון בעיות ודיבוג בעזרת Gen AI",
+      "topics": "זיהוי שגיאות קוד, הבנת הודעות שגיאה, אסטרטגיות דיבוג",
+      "activities": "ניתוח קוד עם באגים, שימוש ב-AI לפתרון בעיות",
+      "exercises": "דיבוג קוד מורכב בעזרת כלי AI",
+      "progress": 80,
+      "units": [
+        {
+          "id": "module5_unit1",
+          "number": 1,
+          "title": "זיהוי שגיאות קוד",
+          "content": "<h2>זיהוי שגיאות קוד</h2><p>זיהוי שגיאות קוד הוא חלק חשוב בתהליך הפיתוח. יחידה זו מציגה כיצד כלי Gen AI יכולים לסייע בזיהוי שגיאות קוד ובהבנת הבעיות.</p><h3>מטרות היחידה</h3><ul><li>להבין כיצד כלי Gen AI מזהים שגיאות קוד</li><li>ללמוד טכניקות לשימוש ב-AI לזיהוי באגים</li><li>לתרגל זיהוי שגיאות בקוד מורכב</li></ul>",
+          "completed": true,
+          "resources": [
+            {
+              "title": "טכניקות לזיהוי שגיאות קוד עם AI",
+              "url": "https://example.com/ai-bug-detection",
+              "type": "article"
+            },
+            {
+              "title": "דוגמאות לשגיאות קוד נפוצות",
+              "url": "https://github.com/example/common-bugs",
+              "type": "code"
+            }
+          ],
+          "relatedAiTools": [
+            {
+              "id": "chatgpt",
+              "name": "ChatGPT",
+              "icon": "fa-comment-dots",
+              "description": "מודל שפה גדול מבית OpenAI"
+            },
+            {
+              "id": "github-copilot",
+              "name": "GitHub Copilot",
+              "icon": "fa-code",
+              "description": "עוזר קוד מבוסס AI"
+            }
+          ]
+        },
+        {
+          "id": "module5_unit2",
+          "number": 2,
+          "title": "הבנת הודעות שגיאה",
+          "content": "<h2>הבנת הודעות שגיאה</h2><p>הודעות שגיאה יכולות להיות מבלבלות ומורכבות. יחידה זו מציגה כיצד כלי Gen AI יכולים לסייע בהבנת הודעות שגיאה ובפתרון הבעיות.</p><h3>מטרות היחידה</h3><ul><li>להבין כיצד לנתח הודעות שגיאה עם כלי Gen AI</li><li>ללמוד טכניקות לשימוש ב-AI להבנת שגיאות מורכבות</li><li>לתרגל פתרון בעיות על בסיס הודעות שגיאה</li></ul>",
+          "completed": true,
+          "resources": [
+            {
+              "title": "פענוח הודעות שגיאה עם AI",
+              "url": "https://example.com/decoding-error-messages",
+              "type": "article"
+            },
+            {
+              "title": "מאגר הודעות שגיאה נפוצות",
+              "url": "https://github.com/example/error-messages",
+              "type": "code"
+            }
+          ],
+          "relatedAiTools": [
+            {
+              "id": "chatgpt",
+              "name": "ChatGPT",
+              "icon": "fa-comment-dots",
+              "description": "מודל שפה גדול מבית OpenAI"
+            },
+            {
+              "id": "claude",
+              "name": "Claude",
+              "icon": "fa-brain",
+              "description": "מודל שפה גדול מבית Anthropic"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

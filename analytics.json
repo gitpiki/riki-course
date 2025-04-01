@@ -1,0 +1,152 @@
+{
+  "analytics": {
+    "overallProgress": 68,
+    "moduleCompletion": [
+      {
+        "id": "module1",
+        "title": "מבוא לכלי Gen AI",
+        "progress": 100
+      },
+      {
+        "id": "module2",
+        "title": "כלי Gen AI לפיתוח קוד",
+        "progress": 100
+      },
+      {
+        "id": "module3",
+        "title": "הנדסת פרומפטים",
+        "progress": 85
+      },
+      {
+        "id": "module4",
+        "title": "למידה בעזרת Gen AI",
+        "progress": 75
+      },
+      {
+        "id": "module5",
+        "title": "פתרון בעיות ודיבוג בעזרת Gen AI",
+        "progress": 80
+      },
+      {
+        "id": "module6",
+        "title": "חשיבה ביקורתית וכלי Gen AI",
+        "progress": 50
+      },
+      {
+        "id": "module7",
+        "title": "אתיקה ויושרה אקדמית בשימוש בכלי Gen AI",
+        "progress": 40
+      },
+      {
+        "id": "module8",
+        "title": "פיתוח פרויקטים בעזרת Gen AI",
+        "progress": 30
+      },
+      {
+        "id": "module9",
+        "title": "Gen AI בתעשיית התוכנה",
+        "progress": 20
+      },
+      {
+        "id": "module10",
+        "title": "פרויקט מסכם",
+        "progress": 10
+      }
+    ],
+    "assignmentCompletion": [
+      {
+        "id": "assignment1",
+        "title": "התנסות ראשונית עם כלי Gen AI",
+        "status": "completed",
+        "grade": 95
+      },
+      {
+        "id": "assignment2",
+        "title": "פיתוח קוד בעזרת GitHub Copilot",
+        "status": "completed",
+        "grade": 88
+      },
+      {
+        "id": "assignment3",
+        "title": "הנדסת פרומפטים",
+        "status": "in-progress",
+        "grade": null
+      },
+      {
+        "id": "assignment4",
+        "title": "פרויקט אמצע: פיתוח כלי למידה בעזרת Gen AI",
+        "status": "not-started",
+        "grade": null
+      },
+      {
+        "id": "assignment5",
+        "title": "דיבוג קוד מורכב בעזרת Gen AI",
+        "status": "not-started",
+        "grade": null
+      },
+      {
+        "id": "assignment6",
+        "title": "פרויקט מסכם: פיתוח פרויקט מקיף בעזרת Gen AI",
+        "status": "not-started",
+        "grade": null
+      }
+    ],
+    "activityTimeline": [
+      {
+        "date": "2025-03-15",
+        "activity": "השלמת מודול 1",
+        "type": "module-completion"
+      },
+      {
+        "date": "2025-03-20",
+        "activity": "הגשת משימה 1",
+        "type": "assignment-submission"
+      },
+      {
+        "date": "2025-03-28",
+        "activity": "השלמת מודול 2",
+        "type": "module-completion"
+      },
+      {
+        "date": "2025-04-02",
+        "activity": "הגשת משימה 2",
+        "type": "assignment-submission"
+      },
+      {
+        "date": "2025-04-10",
+        "activity": "התחלת עבודה על משימה 3",
+        "type": "assignment-start"
+      }
+    ],
+    "timeSpent": {
+      "total": 45.5,
+      "byModule": [
+        {
+          "id": "module1",
+          "hours": 8.5
+        },
+        {
+          "id": "module2",
+          "hours": 10.2
+        },
+        {
+          "id": "module3",
+          "hours": 7.8
+        },
+        {
+          "id": "module4",
+          "hours": 6.5
+        },
+        {
+          "id": "module5",
+          "hours": 12.5
+        }
+      ]
+    },
+    "performanceMetrics": {
+      "averageGrade": 91.5,
+      "completionRate": 68,
+      "engagementScore": 85
+    }
+  }
+}
